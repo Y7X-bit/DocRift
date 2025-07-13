@@ -1,9 +1,11 @@
 <div align="center">
 
 # 🧠 DocRift
+**🌌 Shattered the silence — DocRift now exists**
 
-**Crack open any PDF and extract the juice – text, tables, and more.**  
+rack open any PDF and extract the juice – text, tables, and more.
 💻 A sleek, glowing, AMOLED-style tool built for effortless PDF intelligence.
+Branded with 💗 by [Y7X-bit](https://github.com/Y7X-bit)
 
 <img src="assets/1.png" alt="DocRift UI" width="700"/>
 
@@ -11,7 +13,7 @@
 
 ---
 
-## 🚀 Features at a Glance
+## 🌟 Features at a Glance
 
 - 📂 **Drag & Drop** your PDF directly into the app  
 - 📋 **Extracts text + tables** using powerful `pdfplumber` engine  
@@ -21,8 +23,12 @@
 
 ---
 
-## ⚙️ How to Run
+## 🖥️ Installation
+
+> Python 3.9 or later required
 
 ```bash
-pip install customtkinter pdfplumber tkinterdnd2
-python "Extract text from PDF.py"
+git clone https://github.com/Y7X-bit/DocRift.git
+cd DocRift
+pip install -r requirements.txt
+python DocRift.py
